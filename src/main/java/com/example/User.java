@@ -76,4 +76,10 @@ public class User {
 		this.married = married;
 	}
 
+	@Override
+	public String toString() {
+		return "User [name=" + name + ", email=" + email + ", password=" + password + ", profession=" + profession
+				+ ", note=" + note + ", gender=" + gender + ", birthday=" + birthday + ", married=" + married + "]";
+	}
+	
 }
